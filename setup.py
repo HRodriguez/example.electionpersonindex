@@ -56,6 +56,7 @@ setup(name='example.electionpersonindex',
       zip_safe=False,
       install_requires=['setuptools',
                         # -*- Extra requirements: -*-
+                        'five.grok',
                         ],
       tests_require=tests_require,
       extras_require=dict(tests=tests_require),
