@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<object name="portal_catalog" meta_type="Plone Catalog Tool">
+
+  
+ <index name="getMiddleName" meta_type="FieldIndex">
+    <indexed_attr value="getMiddleName" />
+  </index>
+  
+  <index name="classification" meta_type="FieldIndex">
+    <indexed_attr value="classification" />
+  </index>
+  
+ <index name="person_sedee" meta_type="FieldIndex">
+  <indexed_attr value="person_sedee"/>
+ </index>  
+  
+ <index name="person_genero" meta_type="FieldIndex">
+  <indexed_attr value="person_genero"/>
+ </index>
+ 
+  <index name="person_estado" meta_type="FieldIndex">
+  <indexed_attr value="person_estado"/>
+ </index>     
+  
+  <column value="getMiddleName" />
+  
+  <column value="classification" />
+
+  <column value="person_sedee" />
+  
+  <column value="person_genero" />  
+  
+  <column value="person_estado" />  
+  
+</object>

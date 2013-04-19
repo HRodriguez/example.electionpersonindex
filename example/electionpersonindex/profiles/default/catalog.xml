@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<object name="portal_catalog" meta_type="Plone Catalog Tool">
+
+  
+
+ <index name="electionperson_firstName" meta_type="FieldIndex">
+  <indexed_attr value="electionperson_firstName"/>
+ </index>  
+ 
+ <index name="electionperson_lastName" meta_type="FieldIndex">
+  <indexed_attr value="electionperson_lastName"/>
+ </index>  
+ <index name="electionperson_gender" meta_type="FieldIndex">
+  <indexed_attr value="electionperson_gender"/>
+ </index>  
+
+
+
+  <column value="electionperson_firstName" />
+  
+  <column value="person_lastName" />  
+  
+  <column value="person_gender" />  
+  
+</object>

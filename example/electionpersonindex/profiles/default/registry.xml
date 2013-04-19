@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<registry>
+  <records interface="plone.app.querystring.interfaces.IQueryField"
+           prefix="plone.app.querystring.field.electionperson_lastName">
+    <value key="title">ElectionPerson LastName</value>
+    <value key="description">Last Name</value>
+    <value key="enabled">True</value>
+    <value key="sortable">False</value>
+    <value key="operations">
+        <element>plone.app.querystring.operation.string.is</element>
+    </value>
+    <value key="group">Election Filters</value>
+  </records>
+  
+  <records interface="plone.app.querystring.interfaces.IQueryField"
+           prefix="plone.app.querystring.field.electionperson_firstName">
+    <value key="title">ElectionPerson FirstName</value>
+    <value key="description">First Name</value>
+    <value key="enabled">True</value>
+    <value key="sortable">False</value>
+    <value key="operations">
+        <element>plone.app.querystring.operation.string.is</element>
+    </value>
+    <value key="group">Election Filters</value>
+  </records>  
+  
+  <records interface="plone.app.querystring.interfaces.IQueryField"
+           prefix="plone.app.querystring.field.electionperson_gender">
+    <value key="title">ElectionPerson Gender</value>
+    <value key="description">Gender</value>
+    <value key="enabled">True</value>
+    <value key="sortable">False</value>
+    <value key="operations">
+        <element>plone.app.querystring.operation.selection.is</element>
+    </value>
+    <value key="vocabulary">example.electionperson.Gender</value>
+    <value key="group">Election Filters</value>
+  </records>
+    
+</registry>
+
+
+
